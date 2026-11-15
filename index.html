@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>이주협 · Cat Script — 게임 기획 포트폴리오</title>
-<meta name="description" content="2인 + AI로 6일 동안 만든 Unity 2D 퍼즐 플랫포머 「Cat Script」 개발 기록. AI 리더십 · 구조화 능력 · 학습 실행력.">
+<meta name="description" content="2인 + AI로 6일 동안 만든 Unity 2D 퍼즐 플랫포머 「Cat Script」 개발 기록. AI 활용 · 구조화 능력 · 학습 실행력.">
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galmuri@2.39.3/dist/galmuri.css">
@@ -423,7 +423,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
     <div class="tabs" id="tabs">
       <a href="#top" data-s="top"><b style="background:var(--coffee)"></b>README.md</a>
       <a href="#game" data-s="game"><b style="background:var(--conj)"></b>game.md</a>
-      <a href="#ai" data-s="ai"><b style="background:var(--both)"></b>ai-leadership.md</a>
+      <a href="#ai" data-s="ai"><b style="background:var(--both)"></b>ai-usage.md</a>
       <a href="#structure" data-s="structure"><b style="background:var(--noun)"></b>structure.md</a>
       <a href="#learning" data-s="learning"><b style="background:var(--verb)"></b>learning.md</a>
       <a href="#collab" data-s="collab"><b style="background:var(--orange)"></b>collab.md</a>
@@ -441,7 +441,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
   </div>
   <div class="wrap">
     <div>
-      <div class="eyebrow"><span>GAME DESIGN<span class="eb-sep"> · </span><br class="eb-br">팀 프로젝트 포트폴리오</span></div>
+      <div class="eyebrow"><span>GAME DESIGN<span class="eb-sep"> · </span><br class="eb-br">AI 활용 팀 프로젝트 포트폴리오</span></div>
       <h1><span class="catlogo"><span class="ears"><span class="vh">C</span><svg class="catC" viewBox="0 0 100 112" aria-hidden="true"><path d="M74.5 43.9 A33 33 0 1 0 74.5 88.1" fill="none" stroke="currentColor" stroke-width="23" stroke-linecap="round"/><path d="M17 50 L21 16 Q23 9 29 13 L47 30 Z M53 30 L69 13 Q75 9 77 16 L79 34 Z" fill="currentColor" stroke="currentColor" stroke-width="8" stroke-linejoin="round"/></svg></span>at Script</span><span class="sub">// Unity 2D 퍼즐 플랫포머</span></h1>
       <div class="stats">
         <div class="stat"><em>개발 기간</em><b>6일</b><span>11.05 – 11.10</span></div>
@@ -462,7 +462,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
       <div class="bank">
         <div class="bank-h"><span>WORD BANK</span><span>끌어다 놓거나 클릭</span></div>
         <div class="chips" id="bankChips">
-          <span class="chip c-both" draggable="true" data-w="AI 리더십을 가진" data-go="ai">AI 리더십</span>
+          <span class="chip c-both" draggable="true" data-w="AI 활용 능력을 가진" data-go="ai">AI 활용</span>
           <span class="chip c-noun" draggable="true" data-w="구조화 능력을 갖춘" data-go="structure">구조화 능력</span>
           <span class="chip c-verb" draggable="true" data-w="학습 실행력이 뛰어난" data-go="learning">학습 실행력</span>
         </div>
@@ -582,7 +582,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
       <p class="sec-desc">작업 과정이 그대로 기록에 남도록 저장소를 구성했습니다.</p>
     </div>
     <div class="comp">
-      <a href="#ai" class="reveal" style="--c:var(--both)"><h3>AI 리더십</h3><p>AI와 사람의 역할을 나누고, 워크플로우를 설계하고, AI의 결과를 검증해서 버릴 것은 버린다.</p><ul><li>AGENTS.md로 AI 공용 규칙 운영</li><li>PR마다 맡긴 것 / 판단한 것 / 버린 것 기록</li><li>AI의 실수는 공용 규칙을 개정해 재발 방지</li></ul></a>
+      <a href="#ai" class="reveal" style="--c:var(--both)"><h3>AI 활용</h3><p>AI와 사람의 역할을 나누고, 워크플로우를 설계하고, AI의 결과를 검증해서 버릴 것은 버린다.</p><ul><li>AGENTS.md로 AI 공용 규칙 운영</li><li>PR마다 맡긴 것 / 판단한 것 / 버린 것 기록</li><li>AI의 실수는 공용 규칙을 개정해 재발 방지</li></ul></a>
       <a href="#structure" class="reveal" style="--c:var(--noun)"><h3>구조화 능력</h3><p>“왜 필요한가”를 먼저 쓰고,<br>PR 하나 크기로 쪼갠다</p><ul><li>v0.1 마일스톤을 Issue 초안 22개로 분해</li><li>두 사람의 접점을 결정 문서(ADR)로 먼저 합의</li><li>빈 Issue 금지 → 모든 작업은 문제 정의부터</li></ul></a>
       <a href="#learning" class="reveal" style="--c:var(--verb)"><h3>학습 실행력</h3><p>새 도구를 빠르게 익혀 바로 적용하고,<br>결과를 보고 방향을 조정한다</p><ul><li>에디터를 직접 제작해 하루 만에 스테이지 4개</li><li>SVN에서 Git으로 전환, 6일 만에 PR 29개</li><li>Claude Code · Grok · Gemini 병행</li></ul></a>
     </div>
@@ -592,7 +592,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
   <div class="wrap">
     <div class="sec-head reveal">
       <div class="sec-no">03</div>
-      <div class="sec-kicker"><b style="color:var(--both)">ai-leadership.md</b>AI 리더십</div>
+      <div class="sec-kicker"><b style="color:var(--both)">ai-usage.md</b>AI 활용</div>
       <h2>AI와 사람의 <em>역할 분배</em></h2>
       <div class="def">AI와 사람의 역할을 구분해 최적의 워크플로우를 설계하고, 주도적으로 문제를 해결하는 힘</div>
     </div>
